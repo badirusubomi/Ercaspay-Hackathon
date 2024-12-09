@@ -6,8 +6,8 @@ This repository contains various plugins created for the Ercaspay Hackathon
 
 Plugins:
 
-- ChatbotFE
-- ChatbotBE
+- ChatbotFE: frontend
+- ChatbotBE: backend
 
 # ChatbotFE test setup:
 
