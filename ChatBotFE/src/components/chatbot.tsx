@@ -39,7 +39,8 @@ export default function Chatbot(props: { baseUrl: string; color?: string }) {
 		event.preventDefault();
 		const response = await fetch(props.baseUrl);
 		const json = await response.json();
-		const message = json.fact;
+		console.log(json);
+		const message = json.message;
 		// const responseStream = response.body.pipeThrough(new TextDecoderStream());
 		// for await (const value of responseStream) {
 		// 	console.log(value);
