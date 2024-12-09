@@ -1,6 +1,6 @@
-# Ercaspay-Hackathon
+# Ercas Pay-Hackathon
 
-Ercaspay Hackathon Plugins
+Ercas Pay Hackathon Plugins
 
 This repository contains various plugins created for the Ercaspay Hackathon
 

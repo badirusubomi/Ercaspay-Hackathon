@@ -54,6 +54,10 @@
 	flex-grow: 1;
 	padding: 10px;
 	overflow-y: auto;
+	scrollbar-width: thin;
+	/* scrollbar-gutter: auto; */
+	scroll-behavior: smooth;
+	scrollbar-base-color: #0d5fb6;
 	background-color: #626061;
 }
 
