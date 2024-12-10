@@ -4,10 +4,12 @@ import env from "dotenv";
 import cors from "cors";
 import { ChatEngine } from "./package/chatbotEngine/chatbot-engine.ts";
 
+env.config();
+
 const app = express();
 const port = process.env.SERVER_PORT ?? 3000;
 const chatBot = new ChatEngine("ErcasPay Chatbot");
-env.config();
+
 // Middleware
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use((req, res, next) => {

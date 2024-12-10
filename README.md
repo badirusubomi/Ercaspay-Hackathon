@@ -13,12 +13,15 @@ Plugins:
 
 Navigate into ChatbotFE directory, and execute:
 
-- `npm install` or `yarn install` use your preferred package manager
+- `npm install` or `yarn install` use your preferred package manager: Yarn is recommended
+
 - `npm run dev` or `yarn dev`
 
 # ChatbotBE dev setup
 
 Navigate into ChatbotBE directory, and execute:
 
-- `npm install` or `yarn install`
-- `npm run start` or `nodemon`
+- `npm install` or `yarn install` use your preferred package manager: Yarn is recommended
+- `cp .env-sample .env` to create a file for your environment variables
+- Set the required environment variables
+- `yarn start` or `nodemon`
