@@ -11,13 +11,18 @@ env.config();
 // Middleware
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use((req, res, next) => {
-	console.log(`Method: ${req.method}\nBody: ${req.body}`);
+	console.log(`Method: ${req.method}\n Body: ${req.body}`);
 	next();
 	return;
 });
 app.use(cors());
 
 app.get("/chat", async (req, res) => {
+	const message = await chatBot.generateResponse(req.body.message);
+	res.send({ message: message });
+});
+
+app.post("/chat", async (req, res) => {
 	const message = await chatBot.generateResponse(req.body.message);
 	res.send({ message: message });
 });

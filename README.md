@@ -21,4 +21,4 @@ Navigate into ChatbotFE directory, and execute:
 Navigate into ChatbotBE directory, and execute:
 
 - `npm install` or `yarn install`
-- `npm run start` or `yarn start`
+- `npm run start` or `nodemon`
