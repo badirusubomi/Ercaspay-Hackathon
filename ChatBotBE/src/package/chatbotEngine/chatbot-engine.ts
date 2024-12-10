@@ -1,4 +1,4 @@
-import { LogicType } from "./types/logic.type";
+import { LogicType } from "./types/logic.type.ts";
 
 export class ChatEngine {
 	constructor(private readonly name: string) {
@@ -13,11 +13,11 @@ export class ChatEngine {
 		const logic: string = this.decideLogic(req.split(" "));
 		switch (logic) {
 			case LogicType.FAQ:
-				return this.faqLogic();
-			case LogicType.FAQ:
-				return this.devRequestLogic();
-			case LogicType.FAQ:
-				return this.qrCodeLogic();
+				return this.faqLogic(req);
+			case LogicType.DEVREQUEST:
+				return this.devRequestLogic(req);
+			case LogicType.QRCODEGENERATION:
+				return this.qrCodeLogic(req);
 			default:
 				break;
 		}
@@ -28,9 +28,15 @@ export class ChatEngine {
 		return LogicType.FAQ;
 	}
 
-	faqLogic() {}
+	faqLogic(req: string) {
+		return `I can help you with the following FAQ:  ${req}`;
+	}
 
-	devRequestLogic() {}
+	devRequestLogic(req: string) {
+		return `I can help you with the following dev request:  ${req}`;
+	}
 
-	qrCodeLogic() {}
+	qrCodeLogic(req: string) {
+		return `I can help you with the following qrCode:  ${req}`;
+	}
 }
