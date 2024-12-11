@@ -16,6 +16,7 @@
 		"emitDecoratorMetadata": true,
 		"experimentalDecorators": true,
 		"allowImportingTsExtensions": true,
+		"allowSyntheticDefaultImports": true,
 		"noEmit": true,
 		"baseUrl": "./src",
 		"paths": {
