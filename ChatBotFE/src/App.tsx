@@ -4,7 +4,7 @@ import Chatbot from "./components/chatbot";
 function App() {
 	return (
 		<>
-			<Chatbot baseUrl="http://localhost:3000/chat" />
+			<Chatbot baseUrl="http://localhost:8000/chat" />
 		</>
 	);
 }

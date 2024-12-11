@@ -13,6 +13,8 @@
 	"author": "Olasubomi Badiru & Gideon Adeleke",
 	"license": "MIT",
 	"dependencies": {
+		"@nlpjs/lang-en-min": "^4.26.1",
+		"@nlpjs/nlp": "^4.27.0",
 		"app-root-path": "^3.1.0",
 		"cors": "^2.8.5",
 		"dotenv": "^16.4.7",
