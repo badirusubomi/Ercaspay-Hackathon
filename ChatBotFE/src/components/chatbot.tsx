@@ -36,12 +36,6 @@ export default function Chatbot(props: { baseUrl: string; color?: string }) {
 	async function onFormSubmit(event) {
 		event.preventDefault();
 		let responseMessage: string;
-		// const req = await new Request(props.baseUrl, {
-		// 	method: "POST",
-		// 	body: await JSON.stringify({
-		// 		message: event.target.chatRequestField.value,
-		// 	}),
-		// });
 		const reqMessage = event.target.chatRequestField.value;
 		setInput("");
 		// console.log(req.body);
@@ -51,6 +45,7 @@ export default function Chatbot(props: { baseUrl: string; color?: string }) {
 				props.baseUrl,
 				{
 					message: reqMessage, // Correctly placed payload
+					sessionId: "12347",
 				},
 				{
 					headers: {
@@ -68,15 +63,6 @@ export default function Chatbot(props: { baseUrl: string; color?: string }) {
 		} else {
 			responseMessage = "An error occured, please try again later";
 		}
-
-		// const response = await fetch(req);
-		// const json = await response.json();
-		// console.log(json);
-		// const message = json.message;
-		// const responseStream = response.body.pipeThrough(new TextDecoderStream());
-		// for await (const value of responseStream) {
-		// 	console.log(value);
-		// }
 		setMessages([...messages, `${responseMessage}`]);
 	}
 
