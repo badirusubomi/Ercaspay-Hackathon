@@ -1,0 +1,89 @@
+01
+What is ErcasPay?
+
+-
+ErcasPay is a payment gateway solution for businesses of all sizes. With its multi-currency acceptance capabilities, ErcasPay allows businesses to receive global payments. ErcasPay simplifies payment processing, reconciliation, and international payments for businesses, regardless of size. ErcasPay has a PSSP license by the CBN, a PCI DSS certificate, and NDPA audit compliance.
+
+02
+How many currencies does ErcasPay support?
+
+-
+ErcasPay lets you receive payments in 8 currencies from around the globe.
+NGN (Nigerian Naira)
+
+USD (United States Dollar)
+
+CAD (Canadian Dollar)
+
+GBP (British Pound)
+
+GH₵ (Ghanaian Cedi)
+
+GMD (Gambian Dalasi)
+
+Ksh (Kenyan Shilling)
+
+EURO (Euro)
+
+03
+What checkout options are available on ErcasPay?
+
+-
+With ErcasPay multiple checkout options, your customers have the freedom to pay in the way that is most convenient for them, including
+Debit/Credit Card
+
+Bank Transfer
+
+USSD
+
+QR Code
+
+04
+What are payment links and how do they work on ErcasPay?
+
+-
+ErcasPay lets you create secure payment links in minutes. Here's how it works:
+1. Set amount: Decide the amount you want to receive or let your customer enter it.
+
+2. Generate link:ErcasPay creates a unique link for your customer.
+
+3. Share link: Send the link to your customer via email, text message, or any other way you communicate.
+
+4. Get paid: Decide the amount you want to receive or let your customer enter it.
+
+05
+What is the settlement rate on ErcasPay?
+
+-
+We use the prevailing market rate of the currency involved.
+
+06
+How can I settle funds on ErcasPay?
+
+-
+You can settle funds manually or automatically on ERCASPay. With manual settlement, you control when and how funds are transferred from your ERCASPay account to your settlement account. Automatic settlement is only available for local currencies and is enabled for merchants on request.
+
+07
+What can I do when I can’t upload my documents?
+
+-
+If you can’t upload your documents, kindly contact our customer care team. We will guide you through the process and assist you with uploading.
+
+08
+How long does it take for my ErcasPay account to be active after registration?
+
+-
+Once you've completed your registration and submitted all required documents, we will activate your ErcasPay account promptly.
+
+09
+How can I get support on ErcasPay?
+
+-
+You can get support on ErcasPay by contacting our customer care team via email or phone. We are available 24/7 to assist you with any questions or issues you may have.
+
+10
+What is the minimum amount I can receive on ErcasPay?
+
+-
+The minimum amount you can receive on ErcasPay depends on the currency you are receiving. For example, the minimum amount you can receive in NGN is 100 NGN.
+
